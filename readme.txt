@@ -4,7 +4,7 @@ Donate link: http://flyplugins.com/donate
 Tags: fly plugins,Paid Memberships Pro,wp courseware,wpcourseware,lms,lms for wordpress,learning management system,online ecourse,ecourse,flyplugins,wordpress learning management system
 Requires at least: 3.0
 Tested up to: 3.6.1
-Stable tag: 1.0
+Stable tag: 1.1
 
 This plugin adds integration between Paid Memberships Pro and WP Courseware which allows you to assign course(s) to membership levels for auto enrollment.
 
@@ -68,6 +68,9 @@ Click here to get [Paid Memberships Pro](http://www.paidmembershipspro.com/).
 2. This is the actual configuration screen where you can select courses that will be associated with a particular membership level
 
 == Changelog ==
+
+= 1.1 =
+* Fixed bug that wouldn’t allow for courses to be enrolled if the membership level ID was > 10
 
 = 1.0 =
 * Initial release

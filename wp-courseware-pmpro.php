@@ -1,7 +1,7 @@
 <?php
 /*
  * Plugin Name: WP Courseware - Paid Memberships Pro Add On
- * Version: 1.0
+ * Version: 1.1
  * Plugin URI: http://flyplugins.com
  * Description: The official extension for WP Courseware to add support for the Paid Memberships Pro membership plugin for WordPress.
  * Author: Fly Plugins
@@ -144,7 +144,7 @@ class WPCW_PMPro extends WPCW_Members
 		// Get user ID from transaction
 		$user = $user_id;
 		//Returns an array of membership levels the user has purchased and is paid up on.
-		$membership_level = $level['membership_id'];
+		$membership_level = $level;
 		// Over to the parent class to handle the sync of data.
 		parent::handle_courseSync($user, array($membership_level));
 	}
