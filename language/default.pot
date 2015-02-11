@@ -1,103 +1,127 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: WP Courseware AddOn\n"
-"POT-Creation-Date: 2013-06-12 22:32-0700\n"
-"PO-Revision-Date: 2013-06-12 22:33-0700\n"
+"Project-Id-Version: Paid Memberships Pro for WP Courseware\n"
+"POT-Creation-Date: 2015-02-11 15:38-0700\n"
+"PO-Revision-Date: 2015-02-11 15:38-0700\n"
 "Last-Translator: \n"
 "Language-Team: Fly Plugins\n"
+"Language: en_US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.5\n"
-"X-Poedit-KeywordsList: _e;__\n"
+"X-Generator: Poedit 1.7.4\n"
 "X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: class_members.inc.php:78
+#: class_members.inc.php:74
 msgid "&amp; Automatic Course Access Settings"
 msgstr ""
 
-#: class_members.inc.php:101
-msgid "That membership level does not appear to exist."
+#: class_members.inc.php:97
+msgid "That level does not appear to exist."
 msgstr ""
 
-#: class_members.inc.php:128
+#: class_members.inc.php:124
 #, php-format
 msgid "Editing permissions for <b>%s</b> level with <b>%s</b>:"
 msgstr ""
 
-#: class_members.inc.php:144
+#: class_members.inc.php:140
 msgid "Save Changes"
 msgstr ""
 
-#: class_members.inc.php:147
-msgid "Courses user can access at this level"
+#: class_members.inc.php:143
+msgid "Courses user can access with this level"
 msgstr ""
 
-#: class_members.inc.php:185
+#: class_members.inc.php:149
+msgid "Do you want to retroactively assign these courses to current customers?"
+msgstr ""
+
+#: class_members.inc.php:151
+msgid "Yes"
+msgstr ""
+
+#: class_members.inc.php:152
+msgid "No"
+msgstr ""
+
+#: class_members.inc.php:206
 msgid "Level and course permissions successfully updated."
 msgstr ""
 
-#: class_members.inc.php:186
+#: class_members.inc.php:207
 #, php-format
 msgid ""
 "Want to return to the <a href=\"%s\">Course Access Settings summary</a>?"
 msgstr ""
 
-#: class_members.inc.php:204
+#: class_members.inc.php:223
 msgid "&laquo; Return to Course Access Settings summary"
 msgstr ""
 
-#: class_members.inc.php:231
+#: class_members.inc.php:250
 msgid "Level ID"
 msgstr ""
 
-#: class_members.inc.php:234
+#: class_members.inc.php:253
 msgid "Level Name"
 msgstr ""
 
-#: class_members.inc.php:237
-msgid "Users at this level can access:"
+#: class_members.inc.php:256
+msgid "Users with this level can access:"
 msgstr ""
 
-#: class_members.inc.php:240
+#: class_members.inc.php:259
 msgid "Actions"
 msgstr ""
 
-#: class_members.inc.php:278
+#: class_members.inc.php:297
 msgid "There are no courses yet."
 msgstr ""
 
-#: class_members.inc.php:285
+#: class_members.inc.php:304
 msgid "Edit Course Access Settings"
 msgstr ""
 
-#: class_members.inc.php:297
+#: class_members.inc.php:316
 #, php-format
-msgid "No membership levels were found for %s."
+msgid "No levels were found for %s."
 msgstr ""
 
-#: class_members.inc.php:390
-msgid "extension"
+#: class_members.inc.php:409
+msgid "addon"
 msgstr ""
 
-#: class_members.inc.php:391
+#: class_members.inc.php:410
 #, php-format
 msgid "The %s plugin has not been detected. Is it installed and activated?"
 msgstr ""
 
-#: class_members.inc.php:410
+#: class_members.inc.php:428
 msgid "WP Courseware"
 msgstr ""
 
-#: class_members.inc.php:410
+#: class_members.inc.php:428
 msgid "has not been detected. Is it installed and activated?"
 msgstr ""
 
-#: class_members.inc.php:428
+#: class_members.inc.php:446
 msgid "New users given access based on"
 msgstr ""
 
-#: class_members.inc.php:431
+#: class_members.inc.php:449
 msgid "level"
+msgstr ""
+
+#: wp-courseware-pmpro.php:144
+msgid ""
+"All members were successfully retroactively enrolled into the selected "
+"courses."
+msgstr ""
+
+#: wp-courseware-pmpro.php:149
+msgid "No existing customers found for the specified product."
 msgstr ""

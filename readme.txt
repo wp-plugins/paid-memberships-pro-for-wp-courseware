@@ -2,22 +2,24 @@
 Contributors: flyplugins
 Donate link: http://flyplugins.com/donate
 Tags: fly plugins,Paid Memberships Pro,wp courseware,wpcourseware,lms,lms for wordpress,learning management system,online ecourse,ecourse,flyplugins,wordpress learning management system
-Requires at least: 3.0
-Tested up to: 3.6.1
-Stable tag: 1.1
+Requires at least: 3.7
+Tested up to: 4.1
+Stable tag: 1.2
+License: GPLv3
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-This plugin adds integration between Paid Memberships Pro and WP Courseware which allows you to assign course(s) to membership levels for auto enrollment.
+This plugin adds integration between Paid Memberships Pro and WP Courseware which allows you to assign course(s) to membership levels for automatic enrollment.
 
 == Description ==
-[Fly Plugins](http://flyplugins.com) presents [Paid Memberships Pro](http://www.paidmembershipspro.com/) for [WP Courseware](http://www.wpcourseware.com).
+[Fly Plugins](http://flyplugins.com) presents [Paid Memberships Pro](http://www.paidmembershipspro.com/) for [WP Courseware](http://wpcourseware.com).
 
 = Have you ever wanted to sell an online internet course or ecourse? =
-The Paid Memberships Pro Addon for WP Courseware will add full integration with WP Courseware. It will allow you to assign WP Courseware courses to a membership level. Once the course(s) are assigned to a membership level, upon purchase of a membership level and registration, a student will automatically be enrolled into the associated courses.
+The Paid Memberships Pro Addon for WP Courseware will add full integration with WP Courseware. It will allow you to assign WP Courseware course(s) to a membership level. Once the course(s) are assigned to a membership level, upon purchase of a membership level and registration, a student will automatically be enrolled into the associated courses.
 
-With this addon, you will be able to create a fully automated LMS system which you can sell online, or if you choose to run a free online course, you can do so with ease.
+With this addon, you will be able to create a fully automated LMS system in which you can sell your courses online.
 
 = Paid Memberships Pro Integration with WP Courseware Plugin =
-[youtube http://www.youtube.com/watch?v=dmxsWW432A0]
+[youtube http://www.youtube.com/watch?v=7Ck3-k19TQQ]
 
 = Basic Configuration Steps =
 1. Create a course with WP Courseware and add module(s), unit(s), and quiz(zes)
@@ -25,17 +27,19 @@ With this addon, you will be able to create a fully automated LMS system which y
 3. Create a course outline page using [shortcode]
 4. Create a membership level and set a price
 5. Associate one or more WP Courseware courses with the membership level
-6. New users pay for the course through the shopping cart integration of your choice, the membership plugin assigns them WP user access and assigns them to the membership level for which they paid, and WP Courseware assigns them to the appropriate course(s) based on the membership level
+6. New users pay for membership level, and WP Courseware assigns them to the appropriate course(s) based on the membership level
 
 = Check out Fly Plugins =
 For more info about Fly Plugins Free and Premium Plugins, check out the following links:
 
-* [WP Courseware LMS plugin for WordPress](http://flyplugins.com/wp-courseware-premium-wordpress-plugin/) - The best LMS online for WordPress.
-* [S3 Media Maestro](http://www.s3mediamaestro.com/) - The best HTML 5 secure media player for WordPress that works hand in hand with Amazon S3.
-* Other [Fly PluginsWordPress Plugins](http://flyplugins.com) by Fly Plugins.
-* Follow Fly Plugins on [Facebook](http://flyplugins.com/facebook) 
-* Check out the Fly Plugins [YouTube](http://www.youtube.com/flyplugins) channel.
-* See documentation on our [Codex](http://flyplugins.com/codex) site.
+* [WP Courseware Learning Management System plugin for WordPress](http://wpcourseware.com/) - The best LMS online for WordPress.
+* [S3 Media Maestro](http://s3mediamaestro.com) - The best HTML 5 secure media player for WordPress that works hand in hand with Amazon S3.
+* Other [Fly Plugins WordPress Plugins](http://flyplugins.com) by Fly Plugins.
+* Follow Fly Plugins on [Facebook](http://facebook.com/flyplugins) 
+* Check out the Fly Plugins [YouTube](http://www.youtube.com/flyplugins) YouTube channel.
+
+= Disclaimer =
+This is not an actual membership plugin. It is only the integration, or “middle-man” between WP Courseware and Paid Memberships Pro.
 
 == Installation ==
 
@@ -69,8 +73,11 @@ Click here to get [Paid Memberships Pro](http://www.paidmembershipspro.com/).
 
 == Changelog ==
 
+= 1.2 =
+* New: Added function to retroactively assign new courses to existing membership levels that have already been purchased
+
 = 1.1 =
-* Fixed bug that wouldn’t allow for courses to be enrolled if the membership level ID was > 10
+* Fix: Fixed bug that wouldn’t allow for courses to be enrolled if the membership level ID was > 10
 
 = 1.0 =
 * Initial release
