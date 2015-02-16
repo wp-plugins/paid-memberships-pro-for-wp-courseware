@@ -2,13 +2,13 @@
 Contributors: flyplugins
 Donate link: http://flyplugins.com/donate
 Tags: fly plugins,Paid Memberships Pro,wp courseware,wpcourseware,lms,lms for wordpress,learning management system,online ecourse,ecourse,flyplugins,wordpress learning management system
-Requires at least: 3.7
+Requires at least: 3.8
 Tested up to: 4.1
 Stable tag: 1.2
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-This plugin adds integration between Paid Memberships Pro and WP Courseware which allows you to assign course(s) to membership levels for automatic enrollment.
+This plugin adds integration between Paid Memberships Pro and WP Courseware which allows you to assign course(s) to levels for auto enrollment.
 
 == Description ==
 [Fly Plugins](http://flyplugins.com) presents [Paid Memberships Pro](http://www.paidmembershipspro.com/) for [WP Courseware](http://wpcourseware.com).
@@ -59,7 +59,7 @@ Yes!
 
 = Where can I get WP Courseware? =
 
-Click here to get the [Best WordPress LMS Plugin](http://www.wpcourseware.com).
+Click here to get the [Best WordPress LMS Plugin](http://wpcourseware.com).
 
 = Where can I get Paid Memberships Pro? =
 
